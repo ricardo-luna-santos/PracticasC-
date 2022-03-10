@@ -1,0 +1,17 @@
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\bin\Debug\herenciaypolimorfismo.exe.config
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\bin\Debug\herenciaypolimorfismo.exe
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\bin\Debug\herenciaypolimorfismo.pdb
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\MainWindow.g.cs
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\App.g.cs
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo_MarkupCompile.cache
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo_MarkupCompile.lref
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\MainWindow.baml
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.g.resources
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.Properties.Resources.resources
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.csproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.exe
+C:\Users\Ricardo\Documents\C#\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.pdb
+F:\Tarea\herenciaypolimorfismo\herenciaypolimorfismo\bin\Debug\herenciaypolimorfismo.exe.config
+F:\Tarea\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.exe
+F:\Tarea\herenciaypolimorfismo\herenciaypolimorfismo\obj\Debug\herenciaypolimorfismo.pdb

@@ -1,0 +1,31 @@
+﻿<Window x:Class="edaddeunapersona.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:edaddeunapersona"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="803.538">
+    <Grid>
+        <Label x:Name="label" Content="Fecha de Nacimiento" HorizontalAlignment="Left" Margin="162,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtnacimiento" HorizontalAlignment="Left" Height="23" Margin="298,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Fecha Actual" HorizontalAlignment="Left" Margin="162,116,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtactual" HorizontalAlignment="Left" Height="23" Margin="298,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnuno" Content="Metodo 1" HorizontalAlignment="Left" Margin="162,200,0,0" VerticalAlignment="Top" Width="75" Click="btnuno_Click"/>
+        <Label x:Name="lblresultado" Content="" HorizontalAlignment="Left" Margin="162,242,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txtdn" HorizontalAlignment="Left" Height="23" Margin="578,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <TextBox x:Name="txtmn" HorizontalAlignment="Left" Height="23" Margin="653,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <TextBox x:Name="txtan" HorizontalAlignment="Left" Height="23" Margin="723,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <TextBox x:Name="txtda" HorizontalAlignment="Left" Height="23" Margin="578,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <TextBox x:Name="txtma" HorizontalAlignment="Left" Height="23" Margin="653,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <TextBox x:Name="txtaa" HorizontalAlignment="Left" Height="23" Margin="723,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.322,-0.112"/>
+        <Label x:Name="label_Copy1" Content="Fecha de Nacimiento" HorizontalAlignment="Left" Margin="162,69,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="dd" HorizontalAlignment="Left" Margin="597,40,0,0" VerticalAlignment="Top" Width="30"/>
+        <Label x:Name="label_Copy3" Content="mmm" HorizontalAlignment="Left" Margin="664,40,0,0" VerticalAlignment="Top" Width="30"/>
+        <Label x:Name="label_Copy4" Content="aa" HorizontalAlignment="Left" Margin="734,40,0,0" VerticalAlignment="Top" Width="30"/>
+        <Button x:Name="btnmetodo2" Content="Metodo 2" HorizontalAlignment="Left" Margin="643,200,0,0" VerticalAlignment="Top" Width="75" Click="btnmetodo2_Click"/>
+        <Label x:Name="lblresultado_Copy" Content="" HorizontalAlignment="Left" Margin="162,242,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="lblresultado2" Content="" HorizontalAlignment="Left" Margin="643,242,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

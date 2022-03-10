@@ -1,0 +1,7 @@
+LUSR850819TI2
+RICARDO LUNA SANTOS
+ricardo.luna@utxicotetpec.edu.mx
+DIARIO
+12,MILK,13
+2,DENTAL,13
+1,REGI,34

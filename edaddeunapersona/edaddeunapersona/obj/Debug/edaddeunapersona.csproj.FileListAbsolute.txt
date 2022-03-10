@@ -1,0 +1,14 @@
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\bin\Debug\edaddeunapersona.exe.config
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\bin\Debug\edaddeunapersona.exe
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\bin\Debug\edaddeunapersona.pdb
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.csprojResolveAssemblyReference.cache
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\MainWindow.g.cs
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\App.g.cs
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona_MarkupCompile.cache
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona_MarkupCompile.lref
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\MainWindow.baml
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.g.resources
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.Properties.Resources.resources
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.csproj.GenerateResource.Cache
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.exe
+C:\Users\ricar\Documents\C#\edaddeunapersona\edaddeunapersona\obj\Debug\edaddeunapersona.pdb

@@ -1,0 +1,16 @@
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\bin\Debug\SistemaNumerico.exe.config
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\bin\Debug\SistemaNumerico.exe
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\bin\Debug\SistemaNumerico.pdb
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\MainWindow.g.cs
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\App.g.cs
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico_MarkupCompile.cache
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico_MarkupCompile.lref
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\MainWindow.baml
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.g.resources
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.Properties.Resources.resources
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.csproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.exe
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\obj\Debug\SistemaNumerico.pdb
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\bin\Debug\conversiones.dll
+C:\Users\Ricardo\Documents\C#\SistemaNumerico\SistemaNumerico\bin\Debug\conversiones.pdb

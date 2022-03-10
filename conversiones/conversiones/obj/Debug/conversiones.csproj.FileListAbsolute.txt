@@ -1,0 +1,5 @@
+C:\Users\Ricardo\Documents\C#\conversiones\conversiones\bin\Debug\conversiones.dll
+C:\Users\Ricardo\Documents\C#\conversiones\conversiones\bin\Debug\conversiones.pdb
+C:\Users\Ricardo\Documents\C#\conversiones\conversiones\obj\Debug\conversiones.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\C#\conversiones\conversiones\obj\Debug\conversiones.dll
+C:\Users\Ricardo\Documents\C#\conversiones\conversiones\obj\Debug\conversiones.pdb

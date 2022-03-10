@@ -1,0 +1,17 @@
+﻿<Window x:Class="contructoresyparametros.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:contructoresyparametros"
+        mc:Ignorable="d"
+        Title="Form 3" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="Estudio" HorizontalAlignment="Left" Margin="43,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtestudios" HorizontalAlignment="Left" Height="23" Margin="138,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Escuela" HorizontalAlignment="Left" Margin="43,83,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtescuela" HorizontalAlignment="Left" Height="23" Margin="138,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnterminar" Content="Terminar" HorizontalAlignment="Left" Margin="102,211,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

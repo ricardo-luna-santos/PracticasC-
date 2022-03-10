@@ -1,0 +1,31 @@
+﻿<Window x:Class="Hospital.vistapersona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital"
+        mc:Ignorable="d"
+        Title="vistapersona" Height="562.78" Width="758.955" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblid" Content="ID:" HorizontalAlignment="Left" Margin="15,82,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="186,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <Label x:Name="lblid_Copy" Content="Nombre:" HorizontalAlignment="Left" Margin="15,130,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtnombre" HorizontalAlignment="Left" Height="23" Margin="186,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <Label x:Name="lblid_Copy1" Content="Domicilio:" HorizontalAlignment="Left" Margin="15,180,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtdomicilio" HorizontalAlignment="Left" Height="23" Margin="186,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <Label x:Name="lblid_Copy2" Content="Telefono:" HorizontalAlignment="Left" Margin="15,232,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txttelefono" HorizontalAlignment="Left" Height="23" Margin="186,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <Label x:Name="lblid_Copy3" Content="CURP:" HorizontalAlignment="Left" Margin="15,287,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtcurp" HorizontalAlignment="Left" Height="23" Margin="186,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <Label x:Name="lblid_Copy4" Content="Sexo:" HorizontalAlignment="Left" Margin="15,341,0,0" VerticalAlignment="Top" Width="167"/>
+        <Label x:Name="lblid_Copy5" Content="Fecha de Nacimiento" HorizontalAlignment="Left" Margin="15,398,0,0" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="txtfechanac" HorizontalAlignment="Left" Height="23" Margin="186,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311"/>
+        <ComboBox x:Name="cbosexo" HorizontalAlignment="Left" Height="26" Margin="187,341,0,0" VerticalAlignment="Top" Width="311">
+            <ListBoxItem Content="H"/>
+            <ListBoxItem Content="M"/>
+        </ComboBox>
+        <Label x:Name="label" Content="REGISTRAR PERSONAS" HorizontalAlignment="Left" Margin="139,7,0,0" VerticalAlignment="Top" Width="260" FontSize="21.333" FontWeight="Bold"/>
+        <Button x:Name="btnguardar" Content="Guardar Persona" HorizontalAlignment="Left" Margin="605,82,0,0" VerticalAlignment="Top" Width="138" FontSize="16" Click="btnguardar_Click"/>
+
+    </Grid>
+</Window>

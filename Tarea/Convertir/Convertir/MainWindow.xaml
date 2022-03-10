@@ -1,0 +1,56 @@
+﻿<Window x:Class="Convertir.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Convertir"
+        mc:Ignorable="d"
+        Title="Conversiones" Height="852.5" Width="925.5" FontSize="18.667" FontWeight="Bold" WindowStyle="ToolWindow">
+    <Grid Background="#FF458897">
+        <TextBox x:Name="txtvalor" HorizontalAlignment="Left" Height="24" Margin="410,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Text="0"/>
+        <CheckBox x:Name="cp" Content="Centimetros a Pulgadas" HorizontalAlignment="Left" Margin="72,484,0,0" VerticalAlignment="Top" Checked="cp_Checked"/>
+        <CheckBox x:Name="cm" Content="Centimetros a Metros" HorizontalAlignment="Left" Margin="72,514,0,0" VerticalAlignment="Top" Checked="cm_Checked"/>
+        <CheckBox x:Name="cmm" Content="Centimetros a Milimetros" HorizontalAlignment="Left" Margin="72,542,0,0" VerticalAlignment="Top" Checked="cmm_Checked"/>
+        <CheckBox x:Name="pc" Content="Pulgadas a Centimetros" HorizontalAlignment="Left" Margin="72,572,0,0" VerticalAlignment="Top" Checked="pc_Checked"/>
+        <CheckBox x:Name="kmt" Content="Kilometros a Millas Terrestres" HorizontalAlignment="Left" Margin="72,600,0,0" VerticalAlignment="Top" Checked="kmt_Checked"/>
+        <CheckBox x:Name="kmm" Content="Kilometros a Millas Marinas" HorizontalAlignment="Left" Margin="72,630,0,0" VerticalAlignment="Top" Checked="kmm_Checked"/>
+        <CheckBox x:Name="gk" Content="Gramos a  Kilogramos" HorizontalAlignment="Left" Margin="386,484,0,0" VerticalAlignment="Top" Checked="gk_Checked"/>
+        <CheckBox x:Name="gl" Content="Gramos a Libras" HorizontalAlignment="Left" Margin="386,514,0,0" VerticalAlignment="Top" Checked="gl_Checked"/>
+        <CheckBox x:Name="lg" Content="LIbras a Gramos" HorizontalAlignment="Left" Margin="386,542,0,0" VerticalAlignment="Top" Checked="lg_Checked"/>
+        <CheckBox x:Name="cf" Content="Celsius a Farenheit" HorizontalAlignment="Left" Margin="644,484,0,0" VerticalAlignment="Top" Checked="cf_Checked"/>
+        <CheckBox x:Name="ck" Content="Celsius a Kelvin" HorizontalAlignment="Left" Margin="644,514,0,0" VerticalAlignment="Top" Checked="ck_Checked"/>
+        <CheckBox x:Name="fc" Content="Farenheit a Celsius" HorizontalAlignment="Left" Margin="644,542,0,0" VerticalAlignment="Top" Checked="fc_Checked"/>
+        <CheckBox x:Name="fk" Content="Farenheit a Kelvin" HorizontalAlignment="Left" Margin="644,577,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.249,2.762" Checked="fk_Checked"/>
+        <Label x:Name="label" Content="Valor" HorizontalAlignment="Left" Margin="452,46,0,0" VerticalAlignment="Top" Foreground="#FFFBF7F7"/>
+        <Label x:Name="label1" Content="Longitud" HorizontalAlignment="Left" Margin="148,438,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFFBF8F8"/>
+        <Label x:Name="label1_Copy" Content="Peso" HorizontalAlignment="Left" Margin="442,438,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFFBF8F8"/>
+        <Label x:Name="label1_Copy1" Content="Temperatura" HorizontalAlignment="Left" Margin="694,438,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFFBF8F8"/>
+        <Label x:Name="lblp" Content="pulgadas" HorizontalAlignment="Left" Margin="209,154,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="lblm" Content="metros" HorizontalAlignment="Left" Margin="209,196,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="lblmm" Content="Milimetros" HorizontalAlignment="Left" Margin="209,240,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="lblc" Content="Centimetros" HorizontalAlignment="Left" Margin="209,282,0,0" VerticalAlignment="Top" Width="128" Height="38"/>
+        <Label x:Name="lblmt" Content="Millas Terrestres" HorizontalAlignment="Left" Margin="209,326,0,0" VerticalAlignment="Top" Width="163" Height="38"/>
+        <Label x:Name="lblmm1" Content="Millas Marinas" HorizontalAlignment="Left" Margin="209,368,0,0" VerticalAlignment="Top" Width="163" Height="38"/>
+        <Label x:Name="rp" Content="0" HorizontalAlignment="Left" Margin="72,154,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rm" Content="0" HorizontalAlignment="Left" Margin="72,196,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rmm" Content="0" HorizontalAlignment="Left" Margin="72,240,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rcm" Content="0" HorizontalAlignment="Left" Margin="72,282,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rmt" Content="0" HorizontalAlignment="Left" Margin="72,326,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rmm1" Content="0" HorizontalAlignment="Left" Margin="72,368,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="lblk" Content="Kilogramos" HorizontalAlignment="Left" Margin="523,154,0,0" VerticalAlignment="Top" Width="115" Height="38"/>
+        <Label x:Name="lbll" Content="Libras" HorizontalAlignment="Left" Margin="523,197,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="lblg" Content="Gramos" HorizontalAlignment="Left" Margin="523,240,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="rk" Content="0" HorizontalAlignment="Left" Margin="386,154,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rl" Content="0" HorizontalAlignment="Left" Margin="386,197,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rg" Content="0" HorizontalAlignment="Left" Margin="386,240,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="lblf" Content="Farenheit" HorizontalAlignment="Left" Margin="781,154,0,0" VerticalAlignment="Top" Width="115" Height="38"/>
+        <Label x:Name="lbll_Copy" Content="Kelvin" HorizontalAlignment="Left" Margin="781,197,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="lblg_Copy" Content="Celsius" HorizontalAlignment="Left" Margin="781,240,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="rf" Content="0" HorizontalAlignment="Left" Margin="644,154,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rk1" Content="0" HorizontalAlignment="Left" Margin="644,197,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="rc" Content="0" HorizontalAlignment="Left" Margin="644,240,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+        <Label x:Name="lblg_Copy1" Content="Kelvin" HorizontalAlignment="Left" Margin="781,283,0,0" VerticalAlignment="Top" Width="95" Height="38"/>
+        <Label x:Name="rfk" Content="0" HorizontalAlignment="Left" Margin="644,283,0,0" VerticalAlignment="Top" Width="117" Height="38"/>
+
+    </Grid>
+</Window>

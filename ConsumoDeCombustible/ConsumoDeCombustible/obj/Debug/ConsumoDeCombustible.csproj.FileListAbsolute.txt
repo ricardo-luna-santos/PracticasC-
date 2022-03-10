@@ -1,0 +1,14 @@
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\bin\Debug\ConsumoDeCombustible.exe.config
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\bin\Debug\ConsumoDeCombustible.exe
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\bin\Debug\ConsumoDeCombustible.pdb
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\MainWindow.g.cs
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\App.g.cs
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible_MarkupCompile.cache
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible_MarkupCompile.lref
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\MainWindow.baml
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.g.resources
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.Properties.Resources.resources
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.csproj.GenerateResource.Cache
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.exe
+C:\Users\Ricardo\Documents\C#\ConsumoDeCombustible\ConsumoDeCombustible\obj\Debug\ConsumoDeCombustible.pdb

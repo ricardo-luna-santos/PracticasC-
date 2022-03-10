@@ -1,0 +1,18 @@
+﻿<Window x:Class="Hospital.menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital"
+        mc:Ignorable="d"
+        Title="Menu del Sistema" Height="684.235" Width="795.896" WindowState="Minimized" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Menu x:Name="menu1" Height="35" Margin="6,0,0,615.4" Width="780">
+            <MenuItem Cursor="" Header="Registrar Persona" Click="MenuItem_Click"/>
+            <MenuItem Header="Registrar Trabajador" Click="MenuItem_Click_1"/>
+            <MenuItem Header="Registrar Paciente" Click="MenuItem_Click_2"/>
+            <MenuItem Header="Salir" Click="MenuItem_Click_3"/>
+        </Menu>
+
+    </Grid>
+</Window>

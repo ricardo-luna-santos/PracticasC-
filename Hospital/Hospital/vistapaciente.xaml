@@ -1,0 +1,20 @@
+﻿<Window x:Class="Hospital.vistapaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital"
+        mc:Ignorable="d"
+        Title="vistapaciente" Height="434.357" Width="617.91" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblregistrar" Content="REGISTRAR PACIENTE" HorizontalAlignment="Left" Margin="188,30,0,0" VerticalAlignment="Top" FontSize="21.333" FontWeight="Bold"/>
+        <Label x:Name="lblpersona" Content="Seleccione Persona" HorizontalAlignment="Left" Margin="104,114,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbopersona" HorizontalAlignment="Left" Margin="256,114,0,0" VerticalAlignment="Top" Width="225"/>
+        <Label x:Name="label" Content="Tipo de enfermedad: " HorizontalAlignment="Left" Margin="104,187,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Cama:" HorizontalAlignment="Left" Margin="104,215,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Piso:" HorizontalAlignment="Left" Margin="104,243,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="Piso: " HorizontalAlignment="Left" Margin="104,271,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboenfermedad" HorizontalAlignment="Left" Margin="256,190,0,0" VerticalAlignment="Top" Width="225" SelectionChanged="cboenfermedad_SelectionChanged"/>
+
+    </Grid>
+</Window>

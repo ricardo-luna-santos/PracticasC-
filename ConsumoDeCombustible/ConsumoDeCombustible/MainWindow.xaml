@@ -1,0 +1,79 @@
+﻿<Window x:Class="ConsumoDeCombustible.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsumoDeCombustible"
+        mc:Ignorable="d"
+        Title="Calculos de Combustible  y Tiempo de Recorrido" Height="415" Width="911">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF77D0DE" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="label" Content="Modelo:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtmodelo" HorizontalAlignment="Left" Height="23" Margin="179,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Capacidad del Tanque:" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Rendimiento K/L:  " HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="Velocodad Actual Km/h:" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Velocidad Maxima Km/h" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label x:Name="label_Copy4" Content="Color:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy5" Content="Marca:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtmarca" HorizontalAlignment="Left" Height="23" Margin="179,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtxcolor" HorizontalAlignment="Left" Height="23" Margin="179,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtvelocidadm" HorizontalAlignment="Left" Height="23" Margin="179,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtvelocidada" HorizontalAlignment="Left" Height="23" Margin="179,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtrendimiento" HorizontalAlignment="Left" Height="23" Margin="179,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtcapacidad" HorizontalAlignment="Left" Height="23" Margin="179,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="364" Margin="318,10,0,0" VerticalAlignment="Top" Width="518">
+            <TabItem Header="Aereos">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FFEA95E6" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFEECCEE" Offset="0"/>
+                            <GradientStop Color="#FFF798F7" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Label x:Name="label_Copy6" Content="Numero de Motores:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtmotores" HorizontalAlignment="Left" Height="23" Margin="179,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="label_Copy7" Content="Altutud Maxima" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtaltitud" HorizontalAlignment="Left" Height="23" Margin="179,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="btnguardar" Content="Guardar" HorizontalAlignment="Left" Margin="27,94,0,0" VerticalAlignment="Top" Width="75" Click="btnguardar_Click"/>
+                    <Button x:Name="btncalcular" Content="Calcular" HorizontalAlignment="Left" Margin="119,94,0,0" VerticalAlignment="Top" Width="75"/>
+                    <Label x:Name="lblresultado" Content="" HorizontalAlignment="Left" Height="193" Margin="12,133,0,0" VerticalAlignment="Top" Width="338" Foreground="#FFFBF6F6" FontSize="16"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Terrestres">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF8BEAB6" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF63DC8F" Offset="0"/>
+                            <GradientStop Color="#FFB8DEC6" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Label x:Name="label_Copy8" Content="Numero de Ruedas:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtruedas" HorizontalAlignment="Left" Height="23" Margin="179,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Label x:Name="label_Copy9" Content="Numero de Puertas:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtpuertas" HorizontalAlignment="Left" Height="23" Margin="179,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label x:Name="label_Copy10" Content="Distancia a recorreras en Km" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtdistancia" HorizontalAlignment="Left" Height="23" Margin="179,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

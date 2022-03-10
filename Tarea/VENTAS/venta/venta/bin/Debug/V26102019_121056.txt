@@ -1,0 +1,8 @@
+LUSR850819TI2
+RICARDO LUNA SANTOS SANTOS
+ricardo.luna@utxicotetpec.edu.mxxx
+NINGUNO
+2,a,2
+3,v,2
+1,c,4
+2,5,6

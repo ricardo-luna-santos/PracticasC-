@@ -1,0 +1,18 @@
+﻿<Window x:Class="Hospital.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital"
+        mc:Ignorable="d"
+        Title="Hospital" Height="440.765" Width="769.217" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblbienvenida" Content="Bienvenido al Sistema de Hospital" HorizontalAlignment="Left" Margin="220,31,0,0" VerticalAlignment="Top" Width="364" FontSize="21.333" FontWeight="Bold"/>
+        <Label x:Name="lblpassword" Content="Contraseña:" HorizontalAlignment="Left" Margin="220,236,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblusuario" Content="Usuario:" HorizontalAlignment="Left" Margin="220,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtusuario" HorizontalAlignment="Left" Height="26" Margin="356,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="txtpassword" HorizontalAlignment="Left" Height="26" Margin="356,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228"/>
+        <Button x:Name="btnaceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="482,325,0,0" VerticalAlignment="Top" Width="102" Height="22" Click="btnaceptar_Click"/>
+        <Button x:Name="btncancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="220,325,0,0" VerticalAlignment="Top" Width="102" Height="22" Click="btncancelar_Click"/>
+    </Grid>
+</Window>

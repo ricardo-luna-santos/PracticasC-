@@ -1,0 +1,62 @@
+﻿<Window x:Class="venta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Venta de productos" Height="590.299" Width="842.911">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="78*"/>
+            <ColumnDefinition Width="202*"/>
+            <ColumnDefinition Width="555*"/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="grid1" Grid.ColumnSpan="3" Height="108" Margin="8,-2,11.8,0" VerticalAlignment="Top" Background="#FF68F0E9">
+            <Label Content="Numero de Articulos" HorizontalAlignment="Left" Margin="494,10,0,0" VerticalAlignment="Top" Width="142" FontSize="14"/>
+            <TextBox x:Name="txtnumero" HorizontalAlignment="Left" Height="29" Margin="636,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" TextChanged="txtnumero_TextChanged"/>
+            <Button x:Name="btngenerar" Content="Generar" HorizontalAlignment="Left" Margin="703,10,0,0" VerticalAlignment="Top" Width="75" Height="29" FontSize="14" Click="btngenerar_Click"/>
+            <Label Content="CANTIDAD:" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <Label Content="CODIGO:" HorizontalAlignment="Left" Margin="161,69,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <Label Content="PRECIO U:" HorizontalAlignment="Left" Margin="453,69,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <TextBox x:Name="txtcantidad" HorizontalAlignment="Left" Height="29" Margin="97,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
+            <TextBox x:Name="txtcodigo" HorizontalAlignment="Left" Height="29" Margin="248,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+            <Button x:Name="btnagregar" Content="Agregar" HorizontalAlignment="Left" Height="29" Margin="703,69,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btnagregar_Click"/>
+            <Button x:Name="btnventa" Content="Recuperar" HorizontalAlignment="Left" Height="23" Margin="193,26,0,0" VerticalAlignment="Top" Width="99" RenderTransformOrigin="0.621,-0.093" Click="btnventa_Click"/>
+            <TextBox x:Name="txtf" HorizontalAlignment="Left" Height="23" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+            <TextBox x:Name="txth" HorizontalAlignment="Left" Height="23" Margin="104,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+            <Label x:Name="label1" Content="dd/mm/aaaa" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label1_Copy" Content="hh:mm:ss" HorizontalAlignment="Left" Margin="110,0,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <TextBox x:Name="txtpresiou" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="267,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="255" Margin="10,123,0,0" VerticalAlignment="Top" Width="815" VerticalScrollBarVisibility="Visible" Grid.ColumnSpan="3">
+            <Grid x:Name="grid2" Grid.ColumnSpan="3" Width="815" Background="#FFEEE2F7" Height="255" Margin="0" VerticalAlignment="Top">
+                <Label Content="CANTIDAD:" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+                <Label Content="CODIGO:" HorizontalAlignment="Left" Margin="238,10,0,0" VerticalAlignment="Top" Width="82" FontSize="14" RenderTransformOrigin="0.202,-1.221"/>
+                <Label Content="PRECIO UNITARIO" HorizontalAlignment="Left" Margin="408,10,0,0" VerticalAlignment="Top" Width="122" FontSize="14"/>
+                <Label Content="PRECIO TOTAL" HorizontalAlignment="Left" Margin="633,10,0,0" VerticalAlignment="Top" Width="103" FontSize="14"/>
+            </Grid>
+        </ScrollViewer>
+        <Grid x:Name="grid3" Grid.ColumnSpan="3" Height="166" Margin="10,383,10,0" VerticalAlignment="Top" Background="#FFF3E4C3">
+            <Label Content="SUBTOTAL:" HorizontalAlignment="Left" Margin="555,27,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <Label Content="IVA:" HorizontalAlignment="Left" Margin="555,77,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <Label Content="TOTAL:" HorizontalAlignment="Left" Margin="555,127,0,0" VerticalAlignment="Top" Width="82" FontSize="14"/>
+            <TextBox x:Name="txtsubtotal" HorizontalAlignment="Left" Height="29" Margin="642,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+            <TextBox x:Name="txtiva" HorizontalAlignment="Left" Height="29" Margin="642,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+            <TextBox x:Name="txttotal" HorizontalAlignment="Left" Height="29" Margin="642,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+            <Label x:Name="label" Content="RFC:" HorizontalAlignment="Left" Margin="59,34,0,0" VerticalAlignment="Top" Width="81"/>
+            <TextBox x:Name="txtrfc" HorizontalAlignment="Left" Height="23" Margin="145,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+            <Label x:Name="label_Copy" Content="NOMBRE:" HorizontalAlignment="Left" Margin="59,62,0,0" VerticalAlignment="Top" Width="81"/>
+            <TextBox x:Name="txtnombre" HorizontalAlignment="Left" Height="23" Margin="145,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+            <Label x:Name="label_Copy1" Content="CORREO:" HorizontalAlignment="Left" Margin="59,90,0,0" VerticalAlignment="Top" Width="81"/>
+            <TextBox x:Name="txtcorreo" HorizontalAlignment="Left" Height="23" Margin="145,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+            <Label x:Name="label_Copy2" Content="USO:" HorizontalAlignment="Left" Margin="59,118,0,0" VerticalAlignment="Top" Width="81"/>
+            <TextBox x:Name="txtuso" HorizontalAlignment="Left" Height="23" Margin="145,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252"/>
+            <Button x:Name="btncrear" Content="Guardar Venta" HorizontalAlignment="Left" Height="57" Margin="434,59,0,0" VerticalAlignment="Top" Width="89" Click="btncrear_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFAB0808" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
